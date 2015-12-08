@@ -38,6 +38,12 @@
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</hgroup>
+		<div class="call-to-action">
+			<a href="http://robinallenbrookline.com/" target="_blank"><img src="<?php echo get_template_directory_uri();?>/assets/contact.png" class="social-icon" alt="Contact"></a>
+			<a href="https://www.facebook.com/robin.allen.35110" target="_blank"><img src="<?php echo get_template_directory_uri();?>/assets/facebook.png" class="social-icon" alt="Facebook"></a>
+			<!--<a href="http://robinallenbrookline.com/#" target="_blank"><img src="<?php // echo get_template_directory_uri();?>/assets/pinterest.png" class="social-icon" alt="Pinterest"></a>-->
+			<a href="https://www.linkedin.com/in/robin-allen-050433a" target="_blank"><img src="<?php echo get_template_directory_uri();?>/assets/linkedin.png" class="social-icon" alt="LinkedIn"></a>
+		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></button>

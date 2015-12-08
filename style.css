@@ -550,6 +550,19 @@ a:hover {
 	padding: 24px 0;
 	padding: 1.714285714rem 0;
 }
+.site-header hgroup {
+	width: 50%;
+	float: left;
+}
+.site-header .call-to-action {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-top: 20px;
+}
+.site-header .call-to-action .social-icon {
+	padding-left: 10px;
+}
 .site-header h1,
 .site-header h2 {
 	text-align: center;
