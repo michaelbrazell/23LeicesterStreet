@@ -1,0 +1,1 @@
+This is a theme for a client's website which is a very basic modification of TwentyTwelve.  I'm only using this as a backup of the source because I don't know the client and I'm assuming they don't have this stored anywhere.
